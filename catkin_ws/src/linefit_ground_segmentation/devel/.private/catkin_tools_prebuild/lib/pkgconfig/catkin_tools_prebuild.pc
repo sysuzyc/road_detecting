@@ -1,0 +1,8 @@
+prefix=/home/sysuzyc/coo_map/linefit_ground_segmentation/linefit_ground_segmentation/devel/.private/catkin_tools_prebuild
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sysuzyc/coo_map/linefit_ground_segmentation/linefit_ground_segmentation/devel/.private/catkin_tools_prebuild/lib 
+Requires: 

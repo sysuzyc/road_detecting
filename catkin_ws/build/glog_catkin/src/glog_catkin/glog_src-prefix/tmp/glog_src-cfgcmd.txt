@@ -1,0 +1,1 @@
+cmd='cd;../glog_src/;&&;./configure;--with-pic;--with-gflags=;--prefix=/home/sysuzyc/test_map/catkin_ws/devel'

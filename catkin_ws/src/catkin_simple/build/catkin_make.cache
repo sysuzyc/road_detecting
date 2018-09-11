@@ -1,0 +1,2 @@
+catkin_simple
+-DCATKIN_DEVEL_PREFIX=/home/curry/ROS_ws/catkin_simple/devel -DCMAKE_INSTALL_PREFIX=/home/curry/ROS_ws/catkin_simple/install -G Unix Makefiles

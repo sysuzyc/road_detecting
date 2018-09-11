@@ -1,0 +1,27 @@
+n_threads: 4  # number of threads to use.线程的数目
+
+r_min: 0.5  # minimum point distance.//最小的点云距离
+r_max: 10 # maximum point distance.//最大的点云距离
+n_bins: 1200 # number of radial bins. //我们设定的bins的大小，这里可以间接的得到bins的步长
+n_segments: 360 # number of radial segments.//我们设定的分割的个数，这里可以间接得到分割的步长
+
+# 被认为是地面点的最大垂直距离
+max_dist_to_line: 0.05 # maximum vertical distance of point to line to be considered ground.
+
+max_slope: 0.03  # maximum slope of a ground line.//地面点线的最大斜率
+max_fit_error: 0.05  # maximum error of a point during line fit.//线拟合期间的最大误差
+# 被认为彼此远离的两点之间的距离
+long_threshold: 1.0 # distance between points after which they are considered far from each other.
+#最大长度更改为长线上的初始点
+max_long_height: 0.1  # maximum height change to previous point in long line.
+#地面高度和新线见的最大高度变化
+max_start_height: 0.2 # maximum difference to estimated ground height to start a new line.
+#传感器高于地面的高度，因不同的机型而异
+sensor_height: 0.24 # sensor height above ground.
+#角度搜索方向上的步长
+line_search_angle: 0.1 # how far to search in angular direction to find a line [rad].
+
+#是否进行输出主题的锁存
+latch: true # latch output topics or not
+#是否进行可视化的操作
+visualize: false  # visualize segmentation result - USE ONLY FOR DEBUGGING

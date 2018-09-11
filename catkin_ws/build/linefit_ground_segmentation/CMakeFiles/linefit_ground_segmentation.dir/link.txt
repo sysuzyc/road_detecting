@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC     -shared -Wl,-soname,liblinefit_ground_segmentation.so -o /home/sysuzyc/test_map/catkin_ws/devel/lib/liblinefit_ground_segmentation.so CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o 

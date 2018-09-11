@@ -1,0 +1,2 @@
+catkin_simple/src/catkin_simple:glog_catkin/src/glog_catkin:linefit_ground_segmentation:linefit_ground_segmentation_ros
+-DCATKIN_DEVEL_PREFIX=/home/sysuzyc/test_map/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sysuzyc/test_map/catkin_ws/install -G Unix Makefiles

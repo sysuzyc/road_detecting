@@ -1,0 +1,8 @@
+prefix=/home/sysuzyc/test_map/catkin_ws/devel
+
+Name: linefit_ground_segmentation
+Description: Description of linefit_ground_segmentation
+Version: 0.0.1
+Cflags: -I/home/sysuzyc/test_map/catkin_ws/src/linefit_ground_segmentation/include
+Libs: -L/home/sysuzyc/test_map/catkin_ws/devel/lib -llinefit_ground_segmentation
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/curry/ROS_ws/glog_catkin/devel/setup.sh

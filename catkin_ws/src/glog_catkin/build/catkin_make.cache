@@ -1,0 +1,2 @@
+glog_catkin
+-DCATKIN_DEVEL_PREFIX=/home/curry/ROS_ws/glog_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/curry/ROS_ws/glog_catkin/install -G Unix Makefiles

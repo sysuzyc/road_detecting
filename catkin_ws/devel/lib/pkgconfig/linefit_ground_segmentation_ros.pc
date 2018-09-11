@@ -1,0 +1,8 @@
+prefix=/home/sysuzyc/test_map/catkin_ws/devel
+
+Name: linefit_ground_segmentation_ros
+Description: Description of linefit_ground_segmentation_ros
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/sysuzyc/test_map/catkin_ws/devel/lib 
+Requires: glog_catkin message_generation message_runtime rosbag roscpp tf linefit_ground_segmentation

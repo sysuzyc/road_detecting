@@ -1,0 +1,8 @@
+prefix=/home/curry/ROS_ws/catkin_simple/devel
+
+Name: catkin_simple
+Description: Description of catkin_simple
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/curry/ROS_ws/catkin_simple/devel/lib 
+Requires: catkin

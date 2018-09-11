@@ -1,0 +1,6 @@
+devel_space: /home/sysuzyc/coo_map/linefit_ground_segmentation/linefit_ground_segmentation/devel
+install: false
+install_space: /home/sysuzyc/coo_map/linefit_ground_segmentation/linefit_ground_segmentation/install
+profile: default
+source_space: /home/sysuzyc/coo_map/linefit_ground_segmentation/linefit_ground_segmentation/src
+workspace: /home/sysuzyc/coo_map/linefit_ground_segmentation/linefit_ground_segmentation

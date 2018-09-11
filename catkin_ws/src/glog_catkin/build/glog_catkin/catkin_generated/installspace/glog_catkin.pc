@@ -1,0 +1,8 @@
+prefix=/home/curry/ROS_ws/glog_catkin/install
+
+Name: glog_catkin
+Description: Description of glog_catkin
+Version: 0.0.0
+Cflags: -I/home/curry/ROS_ws/glog_catkin/install/include
+Libs: -L/home/curry/ROS_ws/glog_catkin/install/lib -lglog_catkin
+Requires: 

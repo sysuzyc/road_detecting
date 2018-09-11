@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- Ground segmentation -->
+     
+     <node name="ground_segmentation_config" pkg="linefit_ground_segmentation_ros" 
+          type="ground_segmentation_node" output="screen">
+    <rosparam command="load" file="$(find linefit_ground_segmentation_ros)/launch/segmentation_params.yaml"/>
+    <param name="input_topic" value="/velodyne_points" />  <!--修改了tpoic的名称，使其可以读取velodyne的数据 -->
+    <param name="ground_output_topic" value="ground_cloud" />
+    <param name="obstacle_output_topic" value="obstacle_cloud" />
+  </node>
+
+  <!-- 添加了下面一段话，使其可以正常的执行路面检测的代码 -->
+  <node pkg = "linefit_ground_segmentation_ros" name = "ground_segmentation_node"
+      type = "ground_segmentation_node"/> 
+  
+</launch>

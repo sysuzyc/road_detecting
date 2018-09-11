@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/curry/ROS_ws/catkin_simple/devel/setup.sh

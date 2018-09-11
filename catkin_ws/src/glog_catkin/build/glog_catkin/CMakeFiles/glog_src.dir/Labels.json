@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/CMakeFiles/glog_src"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/CMakeFiles/glog_src.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/CMakeFiles/glog_src-complete.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-install.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-download.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-update.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-patch.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-configure.rule"
+		},
+		
+		{
+			"file" : "/home/curry/ROS_ws/glog_catkin/build/glog_catkin/glog_src-prefix/src/glog_src-stamp/glog_src-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "glog_src" ],
+		"name" : "glog_src"
+	}
+}

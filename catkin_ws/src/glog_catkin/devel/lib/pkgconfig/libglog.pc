@@ -1,0 +1,10 @@
+prefix=/home/curry/ROS_ws/glog_catkin/devel
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.3.4
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}
